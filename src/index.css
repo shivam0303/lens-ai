@@ -20,6 +20,7 @@ body {
 
 .header-title{
   padding: 0 8%;
+  display:flex;
 }
 
 .header-description-container{
@@ -28,7 +29,27 @@ body {
 
 .sort-container{
   padding: 1.5rem 0;
+
 }
 .sort-button{
   margin-right:16px;
+  border: 1px solid white;
+  color: white;
+}
+
+.card-img-top{
+  border-radius:16px;
+  background:#000;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
+  text-decoration:none;
+}
+
+.hide{
+  display:none;
+}
+
+.show{
+  display:block;
 }
